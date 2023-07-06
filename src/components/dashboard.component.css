@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .header-buttons button {
+    margin-left: 1rem;
+    background-color: #fff;
+    color: #3f51b5;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .header-buttons button:hover {
+    background-color: #3f51b5;
+    color: #fff;
+  }
